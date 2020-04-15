@@ -111,7 +111,7 @@ public class Expression_Evaluator{
            }
        }
        for(String i:stack){
-           if(stack.peek().equals("(")==true || stack.peek().equals("(")==true) stack.pop();
+           if(stack.peek().equals("(")==true || stack.peek().equals(")")==true) stack.pop();
            else{
                fp.add(stack.peek());
                stack.pop();
